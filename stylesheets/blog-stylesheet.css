@@ -1,53 +1,47 @@
 header {
-    background-color:grey;
-    color:black;
-    text-align:center;
-    padding:5px;     
-}
-nav {
-    line-height:3px;
-    background-color:#eeeeee;
-    float:center;
-    text-align:center;
-    padding: 1px;
-  
-}
-section {
-    width:350px;
-    float:center;
-    padding:10px;        
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    top: 0;
 }
 
-/*footer {
-    background-color:grey;
+nav {
+    line-height: 3em;
+    background-color: #eeeeee;
+    text-align: center;
+
+}
+
+nav table{
+    border-collapse: separate;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 2em 0em;
+}
+
+
+body {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;       
+}
+
+footer {
+    position: fixed;
+    background-color: black;
     color:white;
     clear:both;
-    text-align:center;
-    padding:5px;         
-}*/
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
 
-#footerR{
-float:right;
-border-radius:1em;
-background-color: #FFEB00;
-padding:2em;
-display:inline-block;
 }
 
-#footerM{
-clear:both;
-border-radius:1em;
-background-color: #FFEB00;
-padding:2em;
-display:inline-block;
-margin-right:-50%;
-margin-left:45%;
-}
-
-#footerL{
-float:left;
-border-radius:1em;
-background-color: #FFEB00;
-padding:2em;
-display:inline-block;
+footer table{
+    border-collapse: separate;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 5em 0em;
 }
