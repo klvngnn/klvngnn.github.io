@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kelvin's DBC Blog</title>
+  <meta charset="UTF-8">
+  <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css">
+</head>
+
+
+<header>
+<h1>Kelvin's DBC Blog</h1>
+</header>
+
+<nav>
+  <table>
+    <tr>
+      <td>Cultural Blog</td>
+      <td>Technical Blog</td>
+      <td>About the Author</td>
+    </tr>
+  </table>
+</nav>
+
+<section>
+  <h1>DBC Technical Blog #1</h1>
+  <h2>Week 2: What are the differences between relative, absolute, and fixed positioning?</h2>
+  <h4> 2015/3/8 </h4>
+
+    <p>One of the concepts that confused me the most this week were differences between relative, absolute, and fixed positioning of blocks. Here I go trying to organize my thoughts:</p>
+
+    <p>As blocks start out, they start out <strong>STATIC</strong>. All page elements start out as static. Static means the element will flow into the page as it normally would. The only reason you would set an element into static would be to forcefully-remove some positioning that got applied to an element outside of your control.</p>
+
+    <p>When blocks are changed to <strong>RELATIVE</strong>, the block's position moves relative to itself. If position was set to relative on an element, but no other positioning attributes (top, left, bottom or right) were used, there would be no effect on the element. It would as if it were <strong>STATIC</strong>. However, if other positioning attributes were introduced, for example, "top: 25px", the element would shift DOWN 10 pixels from where it would NORMALLY be. The ability to shift an element around based on it's regular position is very useful. It can be used to line up elements that don't want to line up.</p>
+
+    <p>When elements are positioned with <strong>ABSOLUTE</strong>, the element is placed exactly as dictated. Positioning attributes top, left bottom and right are used to set the location. These values are relative to the next parent element with relative (or absolute) positioning. If there is no such parent, it will default all the way back up to the <html> element itself. Thus placing the element relatively to the page (Mostly to the top). The trade-off about absolute positioning is that these elements are removed from the flow of elements on the page. An element with this type of positioning is not affected by other elements and it doesn't affect other elements. </p>
+
+    <p>When <strong>FIXED</strong> is used, the element is positioned relative to the browser window itself. The element doesn't change when the window is scrolled, so a fixed positioned element will stay right where it is when the page is scrolled. The Pro of this positioning is that it keeps the navigation present at all times, and it creates an interesting effect on the page. The Cons are that there may be some usability concerns. On smallish laptops, the content may becut off and there is no way to scroll down to see the rest of the content.</p>
+
+    <p>Writing this out help me understand these concept better, and I hope those that are reading have understood this better also. Till next time. klvn out.</p>
+
+<footer>
+  <table>
+    <tr>
+      <td>Previous</td>
+      <td>Home</td>
+      <td>Next</td>
+    </tr>
+  </table>
+</footer>
+
+
+</html>
