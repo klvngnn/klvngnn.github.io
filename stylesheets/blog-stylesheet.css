@@ -17,10 +17,37 @@ section {
     float:center;
     padding:10px;        
 }
-footer {
+
+/*footer {
     background-color:grey;
     color:white;
     clear:both;
     text-align:center;
     padding:5px;         
+}*/
+
+#footerR{
+float:right;
+border-radius:1em;
+background-color: #FFEB00;
+padding:2em;
+display:inline-block;
+}
+
+#footerM{
+clear:both;
+border-radius:1em;
+background-color: #FFEB00;
+padding:2em;
+display:inline-block;
+margin-right:-50%;
+margin-left:45%;
+}
+
+#footerL{
+float:left;
+border-radius:1em;
+background-color: #FFEB00;
+padding:2em;
+display:inline-block;
 }
