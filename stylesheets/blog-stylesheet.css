@@ -45,3 +45,16 @@ footer table{
     margin-right: auto;
     border-spacing: 5em 0em;
 }
+
+#codeblock{
+  background-color: black;   
+  border: 0px;
+  text-align:left;
+  padding-top:0;
+  width:80%;
+}
+
+code{
+  background-color: black;
+  color: #66FF33
+}
