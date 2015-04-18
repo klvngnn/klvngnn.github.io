@@ -1,0 +1,42 @@
+header{
+	background-color: blue;
+	padding: 0.5em;
+}
+
+header h1{
+	text-align: center;
+}
+
+.left{
+	background-color: orange;
+	float: left;
+	padding: 0.25em;
+	width: 25vw;
+
+}
+
+.right{
+	background-color: red;
+	float: right;
+	padding: 0.25em;
+	width: 65vw;
+
+}
+
+.terms{
+	background-color: white;
+	margin: 0.5em;
+}
+
+#codeblock{
+  background-color: black;   
+  border: 0px;
+  text-align:left;
+  padding-top:0;
+  width:100%;
+}
+
+code{
+  background-color: black;
+  color: #66FF33
+}
