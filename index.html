@@ -1,106 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- <link rel="icon" href="../../favicon.ico"> -->
 
-    <title>K.G | Web Developer</title>
+<head>
 
-    <!-- Bootstrap core CSS -->
-    <link href="./stylesheets/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="./stylesheets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+  <title>K.G. | Web Developer</title>
 
-    <!-- Custom styles for this template -->
-    <link href="./stylesheets/css/index.css" rel="stylesheet">
-  </head>
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <body>
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+      <li class="sidebar-brand">
+        <a href="#top"  onclick = $("#menu-close").click(); >Sections</a>
+      </li>
+      <li>
+        <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+      </li>
+      <li>
+        <a href="#about" onclick = $("#menu-close").click(); >About</a>
+      </li>
+      <li>
+        <a href="#services" onclick = $("#menu-close").click(); >Skills</a>
+      </li>
+      <li>
+        <a href="#portfolio" onclick = $("#menu-close").click(); >Projects</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header id="top" class="header">
+    <div class="text-vertical-center">
+      <h1>Kelvin Gann</h1>
+      <h3>Full Stack Rails Developer</h3>
+      <br>
+      <a href="./20151204_KG_Resume.pdf" class="btn btn-dark btn-lg">Download Resume</a>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">About Me</h2>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 col-sm-offset-4">
+          <div class="profile text-center">
+            <img src="./img/profile.jpg" class="img-responsive img-circle">
+            <h4>Kelvin Gann</h4>
+            <p class="text-muted">Full Stack Rails Developer</p>
+            <ul class="list-inline social-buttons">
+              <li>
+                <a href="https://github.com/klvngnn"><i class="fa fa-github fa-fw fa-3x"></i></a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/klvngnn"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/klvngnn"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+              <br>
+              <p class="large">Ever since building computers in highschool, I've been facinated by technology and how things work. I love working with my hands and building things that work. I am passionate about things that interest me, and I am always eager to continue advancing my skills. Currently, I am seeking a full-time position in an engaging environment where I can deepen my existing skills, and develop new ones.</p>  
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+  <!-- Services -->
+  <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+  <section id="services" class="services bg-primary">
+    <div class="container">
+      <div class="row text-center">
+        <h2>Skills</h2>
+        <hr class="small">
+      </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="service-item">
+              <span class="fa-stack fa-4x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-align-justify fa-stack-1x text-primary"></i>
+              </span>
+              <h4>
+                <strong>Full Stack Developer</strong>
+              </h4>
+              <p>It's important to me to be a well rounded developer. Some of the tools in my toolbox are: Ruby on Rails, Javascript, jQuery, HTML, CSS, GitHub, Heroku, React, and Bootstrap.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <span class="fa-stack fa-4x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-compass fa-stack-1x text-primary"></i>
+              </span>
+              <h4>
+                <strong>Learn By Doing</strong>
+              </h4>
+              <p>I love learning about the latest and newest technologies. Often times I pair with people that are exploring the same technology I'm interested in to learn.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <span class="fa-stack fa-4x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-flask fa-stack-1x text-primary"></i>
+              </span>
+              <h4>
+                <strong>Team Player</strong>
+              </h4>
+              <p>I love Collaborating on projects. I am easy to get along with and can make the best out of any situation. I love working on and showing people projects I'm passionate about.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 text-center">
+          <h2>Projects</h2>
+          <hr class="small">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a href="http://mealette.herokuapp.com/">
+                  <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a href="https://s3-us-west-1.amazonaws.com/katalist/static-page/pages/icons-page.html">
+                  <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                </a>
+              </div>
+            </div>
+
+          </div>
+          <!-- /.row (nested) -->
+          <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
+        </div>
+        <!-- /.col-lg-10 -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+      <!-- Call to Action -->
+      <aside class="call-to-action bg-primary">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h3>Please download my resume and contact me!</h3>
+              <a href="./20151204_KG_Resume.pdf" class="btn btn-lg btn-light">Download Resume</a>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 text-center">
+
+          <ul class="list-inline">
+            <li>
+              <a href="https://github.com/klvngnn"><i class="fa fa-github fa-fw fa-3x"></i></a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/in/klvngnn"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/klvngnn"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
             </li>
           </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-
- 		<!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Kelvin Gann</h1>
-        <p>Full Stack Developer | Software Engineer</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Download Resume</a></p>
+          <hr class="small">
+          <p class="text-muted">Copyright &copy; Kelvin Gann 2015</p>
+        </div>
       </div>
     </div>
+  </footer>
 
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-        </div>
-      </div>
-     </div>
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
 
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
 
-    <footer class="footer">
-      <div class="container">
-        <p class="text-muted">Place sticky footer content here.</p>
-      </div>
-    </footer>
+  <!-- Custom Theme JavaScript -->
+  <script>
+  // Closes the sidebar menu
+  $("#menu-close").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+  });
 
+  // Opens the sidebar menu
+  $("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+  });
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="./stylesheets/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="./stylesheets/js/ie10-viewport-bug-workaround.js"></script>
-	</body>
+  // Scrolls to the selected menu item on the page
+    $(function() {
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+  </script>
+
+</body>
+
 </html>
